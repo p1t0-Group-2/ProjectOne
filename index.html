@@ -3,9 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Connect 4 - Project 1 Group 2</title>
   </head>
   <body>
-    <h1>hello</h1>
+    <div class="header">
+      <h1 class="title">Connect 4 - Project 1 Group 2</h1>
+      <div class="buttons">
+        <a href="./assets/home.html"><button id="home">Home</button></a>
+        <a href="./assets/contact.html"><button id="contact">Contact Us</button></a>
+        <a href="./assets/about.html"><button id="us">About Us</button></a>
+      </div>
+    </div>
+    <hr />
+    <div class="openPage">
+      <h2>Welcome to Connect 4!</h2>
+      <p>
+        Connect 4 is a classic two-player strategy game. Take turns dropping your
+        colored discs into the columns of the grid. The first player to align
+        four discs vertically, horizontally, or diagonally wins!
+      </p>
+      <button id="startGame">Start Game</button>
+    </div>
+    <script>
+      document.getElementById('startGame').onclick = () => {
+        alert("The game will start soon!");
+      };
+    </script>
   </body>
 </html>

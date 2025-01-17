@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    padding: 10px;
+    height: 200px;
+}
+
+section {
+    padding: 5px;
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+h2 {
+    padding: 10px;
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.borderbox {
+    border: 2px solid black;
+    width: 250px;
+    height: 190px;
+    box-shadow: 10px 10px 10px lightgrey;
+    margin: 5px;
+}
+
+.sidebyside {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
